@@ -1,17 +1,16 @@
 #include <iostream>
-#include "Tipos.h"
+
 using namespace std;
 
 int main() {
 
-entero base=0, entero altura=0;
-cout << "\ningrese la base:";
-cin >> base;
-cout << "\ningrese la altura:";
-cin >> altura;
+    int base=0,  altura=0;
+    cout << "\ningrese la base:";
+    cin >> base;
+    cout << "\ningrese la altura:";
+    cin >> altura;
+    cout<<"el area del triangulo es: "<< base*altura;
 
 
-// ToDO
-
-  return 0;
+    return 0;
 }
