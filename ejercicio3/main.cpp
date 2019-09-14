@@ -1,18 +1,26 @@
 #include <iostream>
-#include "Tipos.h"
 using namespace std;
-
 int main() {
-
-entero numero;
-caracter crt;
-
-cout << "ingrese el caracter:";
-cin >> crt;
-cout << "\ningrese el numero:";
-cin >> numero;
-
-// ToDO
-// implemente el algoritmo.
-  return 0;
+   char letra;
+   int num=0;
+   cout<<"Escriba una letra: ";
+   cin>>letra;
+    cout<<"Escriba una numero: ";
+   cin>>num;
+   if (letra=='a' or letra=='c' or letra=='e' or letra=='g'){
+        if (num%2!=0){
+            cout<<"El casillero es de color negro";
+        }
+        else{
+            cout<<"El casillero es de color blanco";
+        }
+   }
+   else{
+       if (num%2==0){
+           cout<<"El casillero es de color negro";
+       }
+       else{
+           cout<<"El casillero es de color blanco";
+       }
+   }
 }
