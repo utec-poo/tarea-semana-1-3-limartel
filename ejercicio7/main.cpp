@@ -1,13 +1,12 @@
 #include <iostream>
-#include "Tipos.h"
+
 using namespace std;
 
-int main() {
-
-entero numero;
-cin >> numero;
-
-// ToDO
-// implemente el algoritmo.
-  return 0;
+int main(){
+    int num;
+    do{
+        cout<<"Escriba un numero: ";
+        cin>>num;
+    }
+    while(num<=10 || num>=30);
 }
