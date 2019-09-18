@@ -1,3 +1,4 @@
+
 #include <iostream>
 
 using namespace std;
@@ -9,4 +10,7 @@ int main(){
         cin>>num;
     }
     while(num<=10 || num>=30);
+    for(int i=0;i<num;i++) {
+        cout << '*';
+    }
 }
